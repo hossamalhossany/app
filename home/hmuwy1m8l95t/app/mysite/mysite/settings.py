@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-3z0c@!cx+^%!)*i3xke1!j3ryc1%ge_i292v!%=wo=x$izh32n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['app.hossamweb.com','www.hossamweb.com']
 
 
 # Application definition
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'mysite.wsgi.application'
+WSGI_APPLICATION = 'mysite.mysite.wsgi.application'
 
 
 # Database
@@ -117,7 +117,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/mysite/static/'
+STATIC_ROOT = 'home/hmuwy1m8l95t/app/mysite/static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
